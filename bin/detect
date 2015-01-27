@@ -2,7 +2,7 @@
 set -e
 
 if [[ -f $1/Gemfile && -d $1/public ]]; then
-  echo "serving static assets"
+  echo "Rails App with static assets"
   exit 0
 else
   exit 1
